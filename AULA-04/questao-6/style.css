@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+section{
+    width: 70%;
+    height: 70%;
+    position: relative;
+}
+section>div{
+    text-align: justify;
+    width: 25%;
+    height: 25%;
+    display: inline-block;
+    padding-left: 2%;
+}
+strong{
+    padding: 10%;
+}
+.b1{
+    overflow: scroll;
+}
+.b2{
+    overflow: hidden;
+}
+.b3{
+    overflow: auto;
+}
+.b4 {
+    overflow: visible;
+    position: absolute;
+    left: 55vw;
+}

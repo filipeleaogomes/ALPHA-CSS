@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 50%;
+    height: 50%;
+}
+.largura{
+    width: 50%;
+    height: 50%;
+}
+.bloco1{
+    width: 50%;
+    height: 50%;
+    border: 2px solid blue;
+    position: static;
+}
+.bloco2{
+    width: 50%;
+    height: 50%;
+    border: 2px solid red;
+    position: static;
+    margin-top: 2%;
+}
+.bloco3{
+    width: 50%;
+    height: 50%;
+    border: 2px solid green;
+    position: relative;
+    left: 10vw;
+}
+.bloco5{
+    width: 50%;
+    height: 50%;
+    border: 2px solid violet;
+    left: 10vw;
+}
+.questao3{
+   position: relative
+}
+.bloco6{
+    width: 50%;
+    height: 50%;
+    border: 2px solid blue;
+    position: absolute;
+    left: 5vw;
+    top:5vh;
+}
+.bloco7{
+    width: 12.5%;
+    height: 25%;
+    border: 2px solid black;
+    position: fixed;
+}

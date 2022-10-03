@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
     color: white;
     background-color: black;
@@ -38,7 +38,7 @@ li{
     display: block;
     float: left;
     text-align: center;
-    padding: 6.2%;
+    padding: 6%;
     transition-duration: 500ms;
 }
 li:hover{
@@ -69,7 +69,7 @@ main{
     border-width: 2px;
     border-style: solid;
     border-image: linear-gradient(#2ac6e9, #063ca8) 15;
-
+    overflow: auto;
 }
 
 .focus{
@@ -79,6 +79,9 @@ main{
     background-size: cover;
     background-position: top;
     transition-duration: 500ms;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(#2ac6e9, #063ca8) 15; 
 }
 .focus:hover{
 

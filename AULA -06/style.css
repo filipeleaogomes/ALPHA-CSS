@@ -1,0 +1,71 @@
+/* Cria uma página .html e documento .css e em seguida, faça: 
+
+Pesquise na internet, um texto que contenha pelo menos um título, dois subtítulos e três parágrafos.
+Aplique propriedades de formatação no texto dos parágrafos de modo que fiquem cinza escuro, justificados, de tamanho 12px, sendo o tipo da fonte Roboto importada diretamente do Google Fonts.
+O título e subtítulos devem estar na cor preta, com tamanho da fonte 16px, a fonte deve ser do tipo Play e baixada em sua máquina.
+O título principal deve ser centralizado.
+Cria uma lista de palavras-chave do texto, em formato decimal e faça com que os itens fiquem lado a lado. A seguir
+Crie uma tabela com três colunas e seis linhas, e aplique o estilo zebra nas linhas. Preencha com palavras que representam o texto. */
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@700&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200&display=swap');
+@font-face {
+    font-family:'Play',sans-serif;
+    src: url("/fonts/Play/Play-Regular.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+  width: 100vw;
+  height: 100vh;
+}
+.texto> h1,h2,p{
+    padding: 1%;
+}
+
+h1{
+    text-align: center;
+}
+
+h1,h2{
+    font-size: 16px;
+    color: #000000;
+    font-family:'Play',sans-serif;
+}
+ol{
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style-position: inside;
+    padding-left: 5%;
+}
+p{  
+    color: darkgray;
+    text-align: justify;
+    font-size: 12px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.tabela{
+    overflow-x: auto;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+table tr td{
+    border: 1px solid black;
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr:nth-child(2n+1){
+    background-color: lightgray;
+}

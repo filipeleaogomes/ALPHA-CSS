@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}
+.container{
+    margin: 7% auto;
+    display: table;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.estrutura{
+    height: 200px;
+    margin: 25px;
+    position: relative;
+    width: 200px;
+}
+.cabeca{
+   border-radius:100px 100px 0px 0px;
+   width: 152px;
+   height: 100px;
+   background: red;
+   position: relative ;
+}
+.olho, .bolaDoOlho{
+    border-radius:100px 100px 100px 100px;
+    position: relative;
+}
+.olho{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+.esquerdo{
+    margin: 50px 0 0 25px;
+    float:left;
+}
+.direito{
+    margin: 50px 25px 0 0;
+    float: right;
+}
+.bolaDoOlho{
+    height: 25px;
+    width: 25px;
+    margin: 20px 20px;
+    background-color: blue;
+}
+.direitaSup{
+    margin: 20px 8px;
+}
+.esquerdaInf{
+    margin: 10px 20px;
+}
+.direitaInf{
+    margin:8px 8px; ;
+}
+.perna{
+    width:0;
+    height: 40px;
+    border-right:38px solid red;
+    border-left:38px solid red;
+    border-bottom:40px solid transparent; 
+    display: block;
+    float: left;
+  }

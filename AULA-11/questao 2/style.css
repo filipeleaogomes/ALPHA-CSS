@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section{
+    height: 100px;
+    width: 100px;
+    border-radius: 80%;
+    border: 10px solid lightgray;
+    border-top-color: lightcoral;
+    animation: rotacionando 1s  infinite; 
+}
+
+@keyframes rotacionando {
+     to {
+        transform: rotate(1turn);
+     }
+}
